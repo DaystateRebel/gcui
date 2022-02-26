@@ -5,20 +5,20 @@ Gcui is able to up and download the power settings from and to a Daystate GCU v5
 
 To read power settings from the GCU 
 
-`$ gcui --read --filename=<file>`
+`$ gcui --port=comX --read --filename=<file>`
 
 To write power settings to the GCU 
 
-`$ gcui --write --filename=<file>`
+`$ gcui --port=comX --write --filename=<file>`
 
 To read the current air pressure from the GCU
 
-`$ gcui --pressure`
+`$ gcui --port=comX --pressure`
 
 To read the current pulse duration from the GCU
 
-`$ gcui --pulse`
+`$ gcui --port=comX --pulse`
 
 To read the GCU version
 
-`$ gcui --rwversion`
+`$ gcui --port=comX --rwversion`
